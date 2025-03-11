@@ -8,6 +8,7 @@ conda activate my_project_env
 
 ## Step 2: Install Dependencies 
 ```
+D:
 cd DIAN
 cd DBS Coding Camp 2025
 cd Proyek
