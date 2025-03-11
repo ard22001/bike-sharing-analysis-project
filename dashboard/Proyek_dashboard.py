@@ -6,10 +6,8 @@ import datetime
 from datetime import time
 
 # Load berkas data
-day_df = pd.read_csv(
-    r"data\day_df.csv")
-hour_df = pd.read_csv(
-    r"data\hour_df.csv")
+day_df = pd.read_csv("https://raw.githubusercontent.com/ard22001/bike-sharing-analysis-project/refs/heads/main/data/day_df.csv")
+hour_df = pd.read_csv("https://raw.githubusercontent.com/ard22001/bike-sharing-analysis-project/refs/heads/main/data/hour_df.csv")
 
 # Memastikan kolom 'dteday' bertipe datetime
 day_df['dteday'] = pd.to_datetime(day_df['dteday'])
