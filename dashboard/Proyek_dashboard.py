@@ -7,9 +7,9 @@ from datetime import time
 
 # Load berkas data
 day_df = pd.read_csv(
-    r"D:\DIAN\DBS Coding Camp 2025\Proyek\Analisis_Data\day_df.csv")
+    r"D:\DIAN\DBS Coding Camp 2025\Proyek\Analisis_Data\data\day_df.csv")
 hour_df = pd.read_csv(
-    r"D:\DIAN\DBS Coding Camp 2025\Proyek\Analisis_Data\hour_df.csv")
+    r"D:\DIAN\DBS Coding Camp 2025\Proyek\Analisis_Data\data\hour_df.csv")
 
 # Memastikan kolom 'dteday' bertipe datetime
 day_df['dteday'] = pd.to_datetime(day_df['dteday'])
